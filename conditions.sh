@@ -1,10 +1,12 @@
 #!/bin/bash
 
-if [ i -gt 100 ]
+NUMBER=$1
+
+if [ $NUMBETR -gt 100 ]
 then
-    echo " $i is greater than 100"
+    echo " given number  is greater than 100"
 
 else
-    echo "$i is less than 100"
+    echo "given number is less than 100"
 
 fi    
