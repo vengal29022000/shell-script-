@@ -18,6 +18,7 @@ then
     if [ $? -ne 0 ]
     then 
         echo "installation of mysql got failed"
+        exit 1
     else 
         echo "installation of mysql got success"
     fi
